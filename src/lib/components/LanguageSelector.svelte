@@ -39,7 +39,8 @@
 		'zh-CN': '简体中文',
 		ru: 'Русский',
 		uk: 'Українська',
-		'pt-BR': 'Português (Brasil)'
+		'pt-BR': 'Português (Brasil)',
+		'zh-TW': '繁體中文'
 	};
 
 	/** What is stored, which is not what is rendered: absent means follow the browser. */

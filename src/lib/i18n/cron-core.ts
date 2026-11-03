@@ -10,6 +10,7 @@ import 'cronstrue/locales/pt_BR';
 import 'cronstrue/locales/ru';
 import 'cronstrue/locales/uk';
 import 'cronstrue/locales/zh_CN';
+import 'cronstrue/locales/zh_TW';
 
 const CRONSTRUE_LOCALES: Record<string, string> = {
 	de: 'de',
@@ -20,7 +21,8 @@ const CRONSTRUE_LOCALES: Record<string, string> = {
 	'zh-CN': 'zh_CN',
 	ru: 'ru',
 	uk: 'uk',
-	'pt-BR': 'pt_BR'
+	'pt-BR': 'pt_BR',
+	'zh-TW': 'zh_TW'
 };
 
 export function cronstrueLocaleFor(locale: string): string {
